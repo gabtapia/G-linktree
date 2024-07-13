@@ -12,7 +12,6 @@
   --surface-color-hover: rgba(0, 0, 0, 0.2);
   --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./Assets/MoonStars.svg);
-  overflow-y: hidden;
 }
 
 .light {
@@ -81,7 +80,8 @@ body * {
   left: 0;
   transform: translateY(-50%);
   animation: slide-left .2s;
-  transition: outline 0.2s
+  transition: outline 0.2;
+  cursor: pointer;
 }
 
 .light #switch button {
