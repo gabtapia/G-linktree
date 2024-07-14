@@ -80,7 +80,7 @@ body * {
   left: 0;
   transform: translateY(-50%);
   animation: slide-left .2s;
-  transition: outline 0.2;
+  transition: outline 0.2s;
   cursor: pointer;
 }
 
